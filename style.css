@@ -164,13 +164,23 @@
 
   .contacts {
     position: absolute;
-    top: 10vw;
+    top: 2vw;
     left: 47vw;
     font-size: 2vw;
     color:white;
     font-style: bold;
     text-align: left;
     font-weight: bold;
+  }
+
+  #bottom{
+    position: absolute;
+    top: 118vw;
+    left: 36vw;
+    font-size: 1.5vw;
+    color:black;
+    text-align: left;
+    
   }
 
   .me {
@@ -181,25 +191,37 @@
     height: 26vw;
     border-radius: 20px;
   }
-
+  .spodok {
+    position: relative;
+    text-align: center;
+    
+  }
   footer {
     position: absolute;
     top: 105vw;
-    width: 97%;
+    width: 100%;
     height: 25%;
-    font-size: 1vw;
-    text-align: center;
-    padding: 30px;
-    background-color:#000c58;
+    background-color:dodgerblue;
     color:white;
   }
   
+  .linkedin{
+    position: absolute;
+    top: 110vw;
+    left: 72vw;
+  }
+
+  .instagram{
+    position: absolute;
+    top: 110vw;
+    left: 68vw;
+  }
 
   #hamburger{
     position: absolute; top: -40vw; margin-left: 5vw;
 }
 .hamburger {
-	position: absolute; top: -40vw; left:10px;
+	position: absolute; top: -147vw; left:10px;
 	display: block;
 	width: 35px;
     height: 15px;
@@ -273,7 +295,7 @@
     }
 
     .game{
-      top: 10vw;
+      top: 13vw;
       left: 20vw;
       width:60%;
     }
@@ -308,10 +330,7 @@
       width:60%;
     }
 
-    .contacts{
-      left:45vw;
-      top: 350vw;
-    }
+   
 
     .nav-jonkoping{
       display:none;
@@ -325,36 +344,47 @@
       display:none;
     } 
 
-    footer{
-      top:400vw;
-      font-size: 2vw;
-      width:90%;
-    }
-
     .title{
     text-align:center;
-    left: 27vw;
+    left: 5vw;
+    font-size: 10vw;
+    top:-100vw;
     }
 
     .text{
       text-align:center;
-      left:29vw;
+      left:14vw;
+      top:-70vw;
+      font-size: 2vw;
     }
 
     .hero{
-      height: 50%;
+      height: 150vw;
     }
 
     .work{
-      font-size: 3vw;
-      left: 44vw;
+      font-size: 4vw;
+      left: 40vw;
     }
 
-    .contacts{
-      font-size: 3vw;
-      left: 41vw;
+    footer {
+      top: 460vw;
+      height: 15%;
     }
+  
+
+  .linkedin{
+   
+    top: 470vw;
+   
   }
+
+  .instagram{
+    
+    top: 470vw;
+    
+  }
+}
 
   
 
@@ -362,21 +392,10 @@
   {
     .hamburger{
       display: none;
-      top:10vw;
+      
     }
   }
 
-  @media screen and (min-width:415px)
-  {
-    .footer{
-      width:85%;
-    }
-  }
 
-  @media screen and (min-width:415px)
-  {
-    .footer{
-      width:60%;
-    }
-  }
+ 
 
