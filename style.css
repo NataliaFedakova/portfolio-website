@@ -1,0 +1,382 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+   
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    /* Define-grid */
+    font-weight: 600;
+    grid-area: navv;
+  
+    /* Text */
+    color: black;
+  
+    /* Gaps & Position */
+    position:relative;
+    align-items: center;
+    width: 97%;
+    height: 2vw;
+    padding: 1.2rem;
+  
+    /* Color */
+    background-color:white;
+    z-index: 999;
+  }
+  
+  .nav-text {
+    /* nav-text */
+    justify-content: center;
+    font-size: 1rem;
+  }
+  .nav-text::after {
+    content: '';
+    height: 1px;
+    width: 0%;
+    background-color: #000c58;
+    display: block;
+    transition: .25s ease-in-out;
+  }
+  .nav-text:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #000c58;
+    display: block;
+    transition: .5s ease-in-out;
+  }
+  
+  .nav-home {
+    /* nav-portfolio */
+    inline-size: auto;
+    float: left;
+    left:10vw;
+    color: black;
+  }
+  .nav-game {
+    margin-left: 1rem;
+    inline-size: auto;
+    float: left;
+    color: black;
+  }
+  
+  .nav-ludwiganderzen, .nav-portfolio{
+    /* nav-ludwiganderzen */
+    float: right;
+    inline-size: auto;
+    padding-right: 1rem;
+    color: black;
+  }
+  .nav-jonkoping {
+    /* nav-portfolio */
+    inline-size: auto;
+    float: right;
+    margin-right: 2rem;
+    color: black;
+  
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .title {
+    position: absolute;
+    top: -30vw;
+    left: 6vw;
+    font-size: 5vw;
+    color: white;
+    font-style: bold;
+    text-align: left;
+  }
+
+  .text {
+    position: absolute;
+    top: -16vw;
+    left: 6vw;
+    font-size: 1.2vw;
+    color: white;
+    font-style: bold;
+    text-align: left;
+  }
+
+  .work {
+    position: absolute;
+    top: 3vw;
+    left: 47vw;
+    font-size: 2vw;
+    color:black;
+    font-style: bold;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .magazine {
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    font-size: 2vw;
+ 
+  }
+
+  .game {
+    position: absolute;
+    top: 10vw;
+    left: 42vw;
+ 
+  }
+
+  .lunar {
+    position: absolute;
+    top: 10vw;
+    left: 72vw;
+ 
+  }
+
+  .branding {
+    position: absolute;
+    top: 30vw;
+    left: 10vw;
+    font-size: 2vw;
+ 
+  }
+
+  .tokyo {
+    position: absolute;
+    top: 30vw;
+    left: 42vw;
+ 
+  }
+
+  .poster {
+    position: absolute;
+    top: 30vw;
+    left: 72vw;
+ 
+  }
+
+  .contacts {
+    position: absolute;
+    top: 10vw;
+    left: 47vw;
+    font-size: 2vw;
+    color:white;
+    font-style: bold;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .me {
+    position: absolute;
+    top: -36vw;
+    left: 63vw;
+    width: 22vw;
+    height: 26vw;
+    border-radius: 20px;
+  }
+
+  footer {
+    position: absolute;
+    top: 105vw;
+    width: 97%;
+    height: 25%;
+    font-size: 1vw;
+    text-align: center;
+    padding: 30px;
+    background-color:#000c58;
+    color:white;
+  }
+  
+
+  #hamburger{
+    position: absolute; top: -40vw; margin-left: 5vw;
+}
+.hamburger {
+	position: absolute; top: -40vw; left:10px;
+	display: block;
+	width: 35px;
+    height: 15px;
+	cursor: pointer;
+	
+	appearance: none;
+	background: none;
+	outline: none;
+	border: none;
+    z-index: 100;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+	content: '';
+	display: block;
+	width: 80%;
+	height: 3px;
+	background-color:white;
+	margin: 6px 0px;
+	transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+	transform: rotate(-30deg) translate(-9px, 7px);
+}
+
+.hamburger.is-active:after {
+	transform: rotate(30deg) translate(-7px, -5px);
+}
+
+.hamburger.is-active .bar {
+	opacity: 0;
+}
+
+.mobile-nav {
+	position: fixed;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	z-index: 98;
+	background-color:#000c58;
+	padding-top: 120px;
+	transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+	right: 0;
+}
+
+.mobile-nav a {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto 16px;
+	text-align: center;
+	padding: 12px 16px;
+	background-color: #000c58;
+
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+  @media screen and (max-width:600px)
+  {
+    nav {
+      display: none;
+    }
+
+    .game{
+      top: 10vw;
+      left: 20vw;
+      width:60%;
+    }
+
+    .magazine{
+      top: 65vw;
+      left: 20vw;
+      width:60%;
+    }
+
+    .lunar{
+      top: 115vw;
+      left:20vw;
+      width:60%;
+    }
+
+    .branding{
+      top:165vw;
+      left:20vw;
+      width:60%;
+    }
+
+    .tokyo{
+      top:210vw;
+      left:20vw;
+      width:60%;
+    }
+
+    .poster{
+      top:257vw;
+      left:20vw;
+      width:60%;
+    }
+
+    .contacts{
+      left:45vw;
+      top: 350vw;
+    }
+
+    .nav-jonkoping{
+      display:none;
+    }
+
+    .nav-ludwiganderzen{
+      display:none;
+    }
+
+    .nav-portfolio{
+      display:none;
+    } 
+
+    footer{
+      top:400vw;
+      font-size: 2vw;
+      width:90%;
+    }
+
+    .title{
+    text-align:center;
+    left: 27vw;
+    }
+
+    .text{
+      text-align:center;
+      left:29vw;
+    }
+
+    .hero{
+      height: 50%;
+    }
+
+    .work{
+      font-size: 3vw;
+      left: 44vw;
+    }
+
+    .contacts{
+      font-size: 3vw;
+      left: 41vw;
+    }
+  }
+
+  
+
+  @media screen and (min-width:600px)
+  {
+    .hamburger{
+      display: none;
+      top:10vw;
+    }
+  }
+
+  @media screen and (min-width:415px)
+  {
+    .footer{
+      width:85%;
+    }
+  }
+
+  @media screen and (min-width:415px)
+  {
+    .footer{
+      width:60%;
+    }
+  }
+
