@@ -130,6 +130,7 @@
     top: 10vw;
     left: 10vw;
     font-size: 2vw;
+    border: 3px solid #000000;
  
   }
 
@@ -184,7 +185,7 @@
     position: relative; top: 50vw; right: 0vw; left: 0vw;
         background-color:dodgerblue;
         width: 100vw;
-        height: 10vw; 
+        height: 13vw; 
   }
   
   .linkedin{
@@ -305,7 +306,7 @@
     }
 
     .magazine{
-      top: 65vw;
+      top: 64vw;
       left: 20vw;
       width:60%;
     }
