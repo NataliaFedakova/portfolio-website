@@ -15,7 +15,7 @@
     grid-area: navv;
   
     /* Text */
-    color: black;
+    color:white;
   
     /* Gaps & Position */
     position:relative;
@@ -25,7 +25,7 @@
     padding: 1.2rem;
   
     /* Color */
-    background-color:white;
+    background-color:black;
     z-index: 999;
   }
   
@@ -38,7 +38,7 @@
     content: '';
     height: 1px;
     width: 0%;
-    background-color: #000c58;
+    background-color:white;
     display: block;
     transition: .25s ease-in-out;
   }
@@ -46,7 +46,7 @@
     content: '';
     height: 2px;
     width: 100%;
-    background-color: #000c58;
+    background-color:white;
     display: block;
     transition: .5s ease-in-out;
   }
@@ -56,13 +56,13 @@
     inline-size: auto;
     float: left;
     left:10vw;
-    color: black;
+    color:white;
   }
   .nav-game {
     margin-left: 1rem;
     inline-size: auto;
     float: left;
-    color: black;
+    color:white;
   }
   
   .nav-ludwiganderzen, .nav-portfolio{
@@ -70,14 +70,14 @@
     float: right;
     inline-size: auto;
     padding-right: 1rem;
-    color: black;
+    color:white;
   }
   .nav-jonkoping {
     /* nav-portfolio */
     inline-size: auto;
     float: right;
     margin-right: 2rem;
-    color: black;
+    color:white;
   
   }
 
@@ -90,28 +90,52 @@
   .title {
     position: absolute;
     top: -30vw;
-    left: 6vw;
-    font-size: 5vw;
-    color: white;
+    left: 22vw;
+    font-size: 7vw;
+    color: black;
     font-style: bold;
-    text-align: left;
+    text-align: center;
   }
 
   .me {
     position: absolute;
-    top: 15vw;
-    left: 65vw;
-    border-radius: 20px;
+    top: 5vw;
+    left: 20vw;
+  
+  }
+
+  .arrow {
+    position: absolute;
+    top: 40vw;
+    left: 50vw;
+  
   }
 
   .text {
     position: absolute;
-    top: -16vw;
+    top: 118vw;
     left: 6vw;
     font-size: 1.2vw;
-    color: white;
+    color:black;
     font-style: bold;
     text-align: left;
+  }
+
+  .about {
+    position: absolute;
+    top: 112vw;
+    left: 6vw;
+    font-size: 5vw;
+    color:black;
+    font-style: bold;
+    text-align: left;
+  }
+
+  .ja {
+    position: absolute;
+    top: 105vw;
+    left: 66vw;
+  
   }
 
   .work {
@@ -182,27 +206,35 @@
   }
 
   .box{
-    position: relative; top: 50vw; right: 0vw; left: 0vw;
-        background-color:dodgerblue;
+    position: relative; top: 88vw; right: 0vw; left: 0vw;
+    background-color:black;
         width: 100vw;
         height: 13vw; 
   }
+
+  .stvorec {
+    position: relative; top: 35vw; right: 0vw; left: 0vw;
+    width: 100vw;
+    height: 40vw; 
+  }
+
+  
   
   .linkedin{
     position: absolute;
-    top: 105vw;
+    top: 143vw;
     left: 52.5vw;
   }
 
   .instagram{
     position: absolute;
-    top: 105vw;
+    top: 143vw;
     left: 48.5vw;
   }
 
   .phone{
     position: absolute;
-    top: 106vw;
+    top: 144vw;
     left: 27vw;
     font-size: 1vw;
     color:white;
@@ -213,7 +245,7 @@
 
   .email{
     position: absolute;
-    top: 106vw;
+    top: 144vw;
     left: 7vw;
     font-size: 1vw;
     color:white;
@@ -226,7 +258,7 @@
     position: absolute; top: -40vw; margin-left: 5vw;
 }
 .hamburger {
-	position: absolute; top: -158vw; left:10px;
+	position: absolute; top: -200vw; left:10px;
 	display: block;
 	width: 35px;
     height: 15px;
@@ -244,13 +276,13 @@
 	display: block;
 	width: 80%;
 	height: 3px;
-	background-color:white;
+	background-color:black;
 	margin: 6px 0px;
 	transition: 0.4s;
 }
 
 .hamburger.is-active:before {
-	transform: rotate(-30deg) translate(-9px, 7px);
+	transform: rotate(-30deg) translate(-9px, 6px);
 }
 
 .hamburger.is-active:after {
@@ -269,7 +301,7 @@
 	min-height: 100vh;
 	display: block;
 	z-index: 98;
-	background-color:dodgerblue;
+	background-color:white;
 	padding-top: 120px;
 	transition: 0.4s;
 }
@@ -285,9 +317,9 @@
 	margin: 0 auto 16px;
 	text-align: center;
 	padding: 12px 16px;
-	background-color:dodgerblue;
+	background-color:white;
 
-	color: #FFF;
+	color:black;
 	text-decoration: none;
 }
 
@@ -357,10 +389,20 @@
     }
 
     .text{
-      text-align:center;
-      left:10vw;
-      top:-70vw;
+      top:495vw;
       font-size: 2vw;
+      left:10vw;
+    }
+
+    .ja{
+      top:467vw;
+      left:62vw;
+    }
+
+    .about{
+      top:482vw;
+      left:10vw;
+      font-size: 10vw;
     }
 
     .hero{
@@ -373,37 +415,46 @@
     }
 
     .box {
-      top: 310vw;
+      top: 360vw;
     }
   
 
   .linkedin{
    
-    top: 465vw;
+    top: 515vw;
    
   }
 
   .instagram{
     
-    top: 465vw;
+    top: 515vw;
     
   }
 
   .phone{
    
-    top: 466vw;
+    top: 516vw;
    
   }
 
   .email{
     
-    top: 466vw;
+    top: 516vw;
     
   }
+.me{
+  top: 25vw;
+  left:1vw;
+  width: 110vw;
+  height: 80vw;
+}
+ 
+.arrow {
+  
+  top: 120vw;
 
-  .me{
-    display: none;
-  }
+
+}
 }
 
   
