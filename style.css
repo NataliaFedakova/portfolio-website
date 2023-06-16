@@ -389,19 +389,18 @@
     }
 
     .text{
-      top:495vw;
-      font-size: 2vw;
+      top:479vw;
+      font-size: 3vw;
       left:10vw;
     }
 
     .ja{
-      top:467vw;
-      left:62vw;
+      display: none;
     }
 
     .about{
-      top:482vw;
-      left:10vw;
+      top:467vw;
+      left:27vw;
       font-size: 10vw;
     }
 
