@@ -20,7 +20,7 @@
     /* Gaps & Position */
     position:relative;
     align-items: center;
-    width: 97%;
+    width: 97.5%;
     height: 2vw;
     padding: 1.2rem;
   
@@ -89,12 +89,13 @@
 
   .title {
     position: absolute;
-    top: -30vw;
-    left: 22vw;
-    font-size: 7vw;
-    color: black;
+    top: -32vw;
+    left: 3vw;
+    font-size: 3.5vw;
+    color:yellow;
     font-style: bold;
-    text-align: center;
+    text-align: left;
+font-family:sans-serif;
   }
 
   .me {
@@ -113,10 +114,10 @@
 
   .text {
     position: absolute;
-    top: 118vw;
-    left: 6vw;
-    font-size: 1.2vw;
-    color:black;
+    top: 29vw;
+    left: 3vw;
+    font-size: 1.5vw;
+    color:white;
     font-style: bold;
     text-align: left;
   }
@@ -206,7 +207,7 @@
   }
 
   .box{
-    position: relative; top: 88vw; right: 0vw; left: 0vw;
+    position: relative; top: 55vw; right: 0vw; left: 0vw;
     background-color:black;
         width: 100vw;
         height: 13vw; 
@@ -215,26 +216,26 @@
   .stvorec {
     position: relative; top: 35vw; right: 0vw; left: 0vw;
     width: 100vw;
-    height: 40vw; 
+    height: 20vw; 
   }
 
   
   
   .linkedin{
     position: absolute;
-    top: 143vw;
+    top: 111vw;
     left: 52.5vw;
   }
 
   .instagram{
     position: absolute;
-    top: 143vw;
+    top: 111vw;
     left: 48.5vw;
   }
 
   .phone{
     position: absolute;
-    top: 144vw;
+    top: 112vw;
     left: 27vw;
     font-size: 1vw;
     color:white;
@@ -245,7 +246,7 @@
 
   .email{
     position: absolute;
-    top: 144vw;
+    top: 112vw;
     left: 7vw;
     font-size: 1vw;
     color:white;
@@ -258,7 +259,7 @@
     position: absolute; top: -40vw; margin-left: 5vw;
 }
 .hamburger {
-	position: absolute; top: -200vw; left:10px;
+	position: absolute; top: -180vw; left:10px;
 	display: block;
 	width: 35px;
     height: 15px;
@@ -276,7 +277,7 @@
 	display: block;
 	width: 80%;
 	height: 3px;
-	background-color:black;
+	background-color:red;
 	margin: 6px 0px;
 	transition: 0.4s;
 }
@@ -454,6 +455,10 @@
 
 
 }
+
+.hero {
+  display: none;
+}
 }
 
   
@@ -463,6 +468,10 @@
     .hamburger{
       display: none;
       
+    }
+
+    .hero1 {
+      display: none;
     }
   }
 
