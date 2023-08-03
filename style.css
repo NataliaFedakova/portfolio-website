@@ -92,7 +92,7 @@
     top: -32vw;
     left: 3vw;
     font-size: 3.5vw;
-    color:yellow;
+    color:white;
     font-style: bold;
     text-align: left;
 font-family:sans-serif;
@@ -259,7 +259,7 @@ font-family:sans-serif;
     position: absolute; top: -40vw; margin-left: 5vw;
 }
 .hamburger {
-	position: absolute; top: -180vw; left:10px;
+	position: absolute; top: -220vw; left:10px;
 	display: block;
 	width: 35px;
     height: 15px;
@@ -277,7 +277,7 @@ font-family:sans-serif;
 	display: block;
 	width: 80%;
 	height: 3px;
-	background-color:red;
+	background-color:#000000;
 	margin: 6px 0px;
 	transition: 0.4s;
 }
@@ -384,15 +384,16 @@ font-family:sans-serif;
 
     .title{
     text-align:center;
-    left: 7vw;
-    font-size: 10vw;
-    top:-100vw;
+    left: 4vw;
+    font-size: 9vw;
+    top:-150vw;
     }
 
     .text{
-      top:479vw;
+      text-align:center;
+      top:50vw;
       font-size: 3vw;
-      left:10vw;
+      left:5vw;
     }
 
     .ja{
@@ -415,30 +416,34 @@ font-family:sans-serif;
     }
 
     .box {
-      top: 360vw;
+      top: 320vw;
+      height:30vw;
     }
   
 
   .linkedin{
    
-    top: 515vw;
-   
+    top: 500vw;
+    width: 6vw;
+    width: 6vw;
   }
 
   .instagram{
-    
-    top: 515vw;
-    
+    left:40vw;
+    top: 500vw;
+    width: 6vw;
+    width: 6vw;
   }
 
   .phone{
-   
+   font-size:2vw;
     top: 516vw;
+    left:50vw;
    
   }
 
   .email{
-    
+    font-size:2vw;
     top: 516vw;
     
   }
@@ -451,13 +456,19 @@ font-family:sans-serif;
  
 .arrow {
   
-  top: 120vw;
+  top: 164vw;
+  left:45vw;
 
 
 }
 
 .hero {
   display: none;
+}
+
+.hamburger{
+  display: block;
+  
 }
 }
 
@@ -471,6 +482,9 @@ font-family:sans-serif;
     }
 
     .hero1 {
+      display: none;
+    }
+    .hero2 {
       display: none;
     }
   }
