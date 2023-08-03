@@ -46,7 +46,7 @@
     content: '';
     height: 2px;
     width: 100%;
-    background-color:white;
+    background-color:blue;
     display: block;
     transition: .5s ease-in-out;
   }
@@ -384,7 +384,7 @@ font-family:sans-serif;
 
     .title{
     text-align:center;
-    left: 4vw;
+    left: 6vw;
     font-size: 9vw;
     top:-150vw;
     }
@@ -393,7 +393,7 @@ font-family:sans-serif;
       text-align:center;
       top:50vw;
       font-size: 3vw;
-      left:5vw;
+      left:7vw;
     }
 
     .ja{
@@ -423,14 +423,14 @@ font-family:sans-serif;
 
   .linkedin{
    
-    top: 500vw;
+    top: 503vw;
     width: 6vw;
     width: 6vw;
   }
 
   .instagram{
     left:40vw;
-    top: 500vw;
+    top: 503vw;
     width: 6vw;
     width: 6vw;
   }
@@ -445,7 +445,7 @@ font-family:sans-serif;
   .email{
     font-size:2vw;
     top: 516vw;
-    
+    left:13vw;
   }
 .me{
   top: 25vw;
