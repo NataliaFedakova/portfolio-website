@@ -1,5 +1,5 @@
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     margin: 0;
     
    
@@ -46,7 +46,7 @@
     content: '';
     height: 2px;
     width: 100%;
-    background-color:blue;
+    background-color:white;
     display: block;
     transition: .5s ease-in-out;
   }
@@ -89,13 +89,13 @@
 
   .title {
     position: absolute;
-    top: -32vw;
-    left: 3vw;
+    top: -33vw;
+    left: 53vw;
     font-size: 3.5vw;
-    color:white;
+    color:black;
     font-style: bold;
     text-align: left;
-font-family:sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .me {
@@ -105,21 +105,32 @@ font-family:sans-serif;
   
   }
 
-  .arrow {
+  #button {
     position: absolute;
-    top: 40vw;
-    left: 50vw;
-  
+    top: 35vw;
+    left: 51vw;
+    background-color:lightpink;
+    border: none;
+    border-radius: 20vw;
+    color: black;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 4vw 2vw;
+    cursor: pointer;
   }
 
   .text {
     position: absolute;
-    top: 29vw;
-    left: 3vw;
+    top: 28vw;
+    left: 53vw;
     font-size: 1.5vw;
-    color:white;
+    color:black;
     font-style: bold;
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .about {
@@ -224,19 +235,19 @@ font-family:sans-serif;
   .linkedin{
     position: absolute;
     top: 111vw;
-    left: 52.5vw;
+    left: 50.5vw;
   }
 
   .instagram{
     position: absolute;
     top: 111vw;
-    left: 48.5vw;
+    left: 46.5vw;
   }
 
   .phone{
     position: absolute;
     top: 112vw;
-    left: 27vw;
+    left: 24vw;
     font-size: 1vw;
     color:white;
     font-style: bold;
@@ -247,7 +258,7 @@ font-family:sans-serif;
   .email{
     position: absolute;
     top: 112vw;
-    left: 7vw;
+    left: 61vw;
     font-size: 1vw;
     color:white;
     font-style: bold;
@@ -336,6 +347,10 @@ font-family:sans-serif;
       top: 13vw;
       left: 20vw;
       width:60%;
+    }
+
+    #button{
+      display: none;
     }
 
     .magazine{
